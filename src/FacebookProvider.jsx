@@ -27,7 +27,7 @@ type State = {
 
 export default class Facebook extends Component<Props, State> {
   static defaultProps = {
-    version: 'v3.1',
+    version: 'v10.0',
     cookie: false,
     status: false,
     xfbml: false,
